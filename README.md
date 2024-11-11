@@ -33,7 +33,7 @@ This project is a static website for a toy shop, developed as part of the CSS mo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/LMSG-CSS-Proyect.git
+   git clone https://github.com/GsuDev/LMSG-CSS-Proyect.git
    ```
 
 2. Open the project folder:
