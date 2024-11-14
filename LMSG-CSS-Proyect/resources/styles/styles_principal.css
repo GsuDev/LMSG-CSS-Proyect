@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 20vh;
+    background-color: #F59330;
+    position: relative;
+    display: flex;
+}
+
+/*Barra de búsqueda*/
+.input-container {
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    border-radius: 12px;
+
+}
+
+/*Clase del logo*/
+.logo {
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+}
+
+/* Logo*/
+
+.logo img {
+    width: 8vw;
+}
+
+/*Menú*/
+nav {
+    background-color: #F59330;
+    position: absolute;
+    top: 19vh;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+/*Lista que forma el menú*/
+nav ul {
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+/*Elementos de la lista, que forma el menú*/
+nav ul li {
+    border: 2px solid transparent;
+    list-style: none;
+    padding: 1vh;
+    flex: 1;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+}
+
+/*Cada elemento de la lista, (al pasar el ratón por encima)*/
+nav ul li:hover {
+    border: 2px solid #B22148;
+    background-color: #85A29E;
+    cursor: pointer;
+    transition: border 3.6s, background-color 1.5s, border-radius 0.3s;
+    /* Transición para el borde, color de fondo y border-radius */
+}
+
+/*Datos adicionales*/
+.container2 {
+    background-color: #B22148;
+    display: flex;
+    position: absolute;
+    top: 26vh;
+    width: 100vw;
+    height: 5vh;
+}
+
+.datosAdicionales ul {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 0.8vh;
+}
+
+.datosAdicionales ul li {
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
